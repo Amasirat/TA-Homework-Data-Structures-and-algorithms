@@ -18,8 +18,6 @@ public:
     void DFS(int start_vertex);
 //check if vertex is in Graph
     bool is_vertex(int vertex) const;
-//if you have visited a vertex
-    bool vertex_visited(int vertex) const;
 private:
     std::vector<std::list<int>> m_adjList{};
     std::vector<bool> m_visited{};

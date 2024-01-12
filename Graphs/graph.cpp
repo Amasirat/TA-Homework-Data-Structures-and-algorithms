@@ -70,11 +70,3 @@ bool Graph::is_vertex(int vertex) const
 {
     return vertex < m_adjList.size();
 }
-//if you have visited a vertex
-bool Graph::vertex_visited(int vertex) const
-{
-    if(vertex >= m_visited.size())
-        throw "input to vertex_visited() is not an existing vertex";
-    return m_visited[vertex];
-}
-

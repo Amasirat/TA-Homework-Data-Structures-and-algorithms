@@ -14,10 +14,10 @@ public:
     void add(const T& element);
 //free queue
     T free();
-//see first element in Queue
-    T* top();
-//see last element in Queue, returns address of element
-    T* end();
+//see first element in Queue, returns reference to element
+    T& top();
+//see last element in Queue, returns reference to element
+    T& end();
 //returns amount of existing items in Queue
     int current_count() const;
 //returns true if queue is empty
