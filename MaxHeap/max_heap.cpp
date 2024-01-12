@@ -23,11 +23,11 @@
         //if there is no right child
             if(child + 2 == m_array.size())
             {
-                child += 1;
+                child += 1;//rightmost left child
             }
             else
             {
-                child += 2;
+                child += 2;//rightmost right child
             }
         }
         // Now we get the root key to the right most leaf
