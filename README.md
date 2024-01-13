@@ -10,5 +10,3 @@ BST contains an implementation of a Binary Search Tree Class, that contains func
 Graphs contains a Graph class that contains all Graph Related programming assignments
 
 MaxHeap also contains a heap data structure implemented with a vector.
-
-## Compilation
